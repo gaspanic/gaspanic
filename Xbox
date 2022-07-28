@@ -1,0 +1,7 @@
+dd if=game-redump.iso of=game.iso skip=387 bs=1M
+
+
+./extract-xiso -x game.iso
+
+
+./extract-xiso -c game
